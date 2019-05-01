@@ -1,0 +1,20 @@
+.navbar {
+    background: teal;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-links {
+    color: yellow;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    background: blue;
+}
+
+.nav-links:visited {
+    color: yellow;
+}
