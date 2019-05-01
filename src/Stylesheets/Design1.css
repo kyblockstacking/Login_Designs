@@ -1,0 +1,26 @@
+.wrapper-design-1 {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+.form-design-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-design-1 label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-username,
+.input-password {
+    border: none;
+    background: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 0;
+    border-bottom: 1px solid black;
+}
