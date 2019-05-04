@@ -1,26 +1,54 @@
 .wrapper-design-1 {
-    display: flex;
-    height: 80vh;
-    justify-content: center;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
 }
 
 .form-design-1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .form-design-1 label {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-username,
+.text-password {
+  color: rgb(135, 135, 135);
+  font-size: 1.2em;
 }
 
 .input-username,
 .input-password {
-    border: none;
-    background: transparent;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 5px 0;
-    border-bottom: 1px solid black;
+  border: none;
+  background: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px 0;
+  border-bottom: 1px solid black;
+  height: 20px;
+  font-size: 1.5em;
+}
+
+.input-username,
+.input-password {
+  outline: none;
+}
+
+.sign-in {
+  height: 50px;
+  font-size: 1.5em;
+  background-color: rgb(119, 205, 202);
+  border: none;
+  margin-top: 1em;
+  font-weight: 750;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.4s ease;
+}
+
+.sign-in:hover {
+  background-color: rgb(68, 154, 151);
 }

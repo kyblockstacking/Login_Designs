@@ -6,15 +6,17 @@ export default class Design1 extends Component {
         return (
             <div className='wrapper-design-1'>
 
-                <form class='form-design-1' action="" method="post">
-                    <label for="username">
-                        <span>Username</span><input className='input-username' type="text" name="username" required="true" />
+                <form class='form-design-1' action='' method='post'>
+                    <label for='username'>
+                        <span className='text-username'>Username</span>
+                        <input className='input-username' type='text' name='username' required='true' />
                     </label>
-                    <label for="password">
-                        <span>Password</span><input className='input-password' type="password" name="password" required="true" />
+                    <label for='password'>
+                        <span className='text-password'>Password</span>
+                        <input className='input-password' type='password' name='password' required='true' />
                     </label>
                     <label>
-                        <span> </span><input type="submit" value="Sign In" />
+                        <input className='sign-in' type='submit' value='Sign In' />
                     </label>
                 </form>
 
